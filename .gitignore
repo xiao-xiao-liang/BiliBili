@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / Frontend
+node_modules/
+web/dist/
+web/*.local
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Environment
+.env
+.env.*
+!.env.example
